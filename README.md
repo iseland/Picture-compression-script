@@ -1,2 +1,2 @@
 # Picture-compression-script
-压缩图片
+批量压缩微信图片
