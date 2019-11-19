@@ -23,7 +23,7 @@ def resize_images(source_dir ,target_dir,threshold):
 				width , height = im.size
 				new_width =width
 				while True:
-					new_width =new_width-50
+					new_width =new_width-5
 					new_height = int(new_width * height * 1.0 / width)
 					if  new_width*new_height<=threshold:
 						break
